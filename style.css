@@ -1,0 +1,154 @@
+
+
+body{
+    background-image: url("artistic-blurry-colorful-wallpaper-background.jpg");
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+
+h1{
+    color: #0094b6;
+}
+h1 span {
+    color: rgb(153,152,152);
+}
+.select h2{
+    background-color:#06304b ;
+    color: #fff;
+    text-align: center;
+}
+.left-box{
+    padding: 25px;
+   
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: rgb(0, 0, 0);
+}
+.right-box{
+    padding: 25px;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.select{
+    height: 150px;
+   
+    margin: auto;
+    width: 98%;
+   
+}
+.select-1 h2{
+    background-color:#06304b ;
+    color: #fff;
+    text-align: center;
+}
+.select-1{
+    height: 290px;
+   
+    margin: auto;
+    width: 98%;
+}
+#resultDiv{
+    height: 300px;
+    margin: none;
+    padding: none;
+}
+.inp{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    border: rgb(142, 155, 168) solid 1px;
+    
+}
+.label-1{
+    padding: 10px;
+}
+.select ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+
+}
+.select button{
+  
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 3px;
+
+}
+.btnn{
+  
+    background-color: #fff;
+    color: black;
+    padding: 4px;
+    border-radius: 6px;
+}
+.left-box button:hover{
+    font-weight: 500;
+    background: #000;
+    color: rgb(255, 255, 255);
+}
+.left-box button span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.left-box button:hover span{
+    width: 30px;
+}
+.right-box button:hover{
+    font-weight: 500;
+    background: #000;
+    color: rgb(255, 255, 255);
+}
+.right-box button span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.right-box button:hover span{
+    width: 30px;
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+    text-align: start;
+    position: absolute;
+}
+
+.select-1 h2 {
+   
+    color: black;
+    text-align: start;
+    text-align: start;
+    width: 291px;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+   
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.select button {
+    background-color: #fff;
+    border-radius: 9px 18px;
+    padding: 10px;
+    border: 1px solid skyblue;
+    margin: 3px;
+    transition: 0.2s ease-in-out;
+}
+
+.select button:hover{
+    color: white;
+    background-color: #0094b6;
+    transform: scale(1.1);
+}
